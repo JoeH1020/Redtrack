@@ -21,12 +21,12 @@ cd RedtrackAPI
 
 Restore the required NuGet packages: 
 
-## dotnet restore
+#### dotnet restore
 
 ### Running the API
 
 To run the Redtrack API, execute the following command in the terminal: 
 
-## dotnet run
+#### dotnet run
 
 This command will build and start the API on your local machine. Once the API is running, you can access it using your preferred API testing tool, such as Postman or Insomnia.
