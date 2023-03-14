@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { Button } from "react-bootstrap";
 import { OrderContext } from "../Contexts/OrderContext";
 import { IOrder } from "../@types/order";
