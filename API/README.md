@@ -10,23 +10,16 @@ Ensure that you have the following software installed on your system:
 
     .NET 7 SDK
 
-Installing
+### Installing
 
-Clone the repository:
+Clone the repository
 
+Navigate to the Redtrack API folder -> cd API
 
-Navigate to the Redtrack API folder:
-
-cd RedtrackAPI
-
-Restore the required NuGet packages: 
-
-#### dotnet restore
+Restore the required NuGet packages -> dotnet restore
 
 ### Running the API
 
-To run the Redtrack API, execute the following command in the terminal: 
+To run the Redtrack API, execute the following command in the terminal -> dotnet run 
 
-#### dotnet run
-
-This command will build and start the API on your local machine. Once the API is running, you can access it using your preferred API testing tool, such as Postman or Insomnia.
+This command will build and start the API on your local machine. The API should run on http://localhost:5108 so make sure no other application is running on that port.
